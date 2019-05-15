@@ -1,0 +1,23 @@
+ <!doctype html>
+<html>
+	<head>
+    <title>W2 Team Acttivity</title>
+	</head>
+    <body>
+        <h2>Requirement 1</h2>
+<input id="input" type="text"/>
+<button id="button" onclick="one()">Submit</button>
+   <div id="output"></div>   
+
+	
+
+<script>
+    function one() {
+        const input = document.getElementById('input').value;
+        const outputElement = document.getElementById('output');
+        outputElement.innerHTML = 'Answer: ' + input;
+    }
+        
+</script> 
+        </body>
+</html>
