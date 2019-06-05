@@ -1,0 +1,27 @@
+HTML, JS and CSS all create a good user experience. Not just one of them. 
+JS makes the page active, html defines what is shown and css is how it looks
+it is important to understand the layout of HTML and how to structure the code
+functions are the building blocks of JS html and css
+make sure you understand when to use the correct grammar in javascript
+css uses the <script> tags and usually accesses another file that the css resides in but css can also be used inside of the HTML
+
+#result_display{
+18 background-color: DarkGrey;
+19 width: 300px;
+20 height: 150px;
+21 position: relative;
+22 top: 10px;
+23 left: 10px;
+
+this code controlls the size position and color of the text box. on line 21 you can tell the box to be anywhere on the webpage
+
+you can use named colors or a 6 digit code that is tied to that specific color
+
+I need to study and understant looks and arays better and how they work together. 
+
+var storedNotesString = localStorage.getItem(“all_notes”)
+
+this will help you store the notes and information. 
+
+there are some things that can be changed in JS but can be easier or better looking if done with CSS
+
